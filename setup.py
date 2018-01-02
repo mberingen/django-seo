@@ -39,7 +39,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Indexing/Search',
     ],
     packages=find_packages(),
-    install_requires=["django", ],
+    install_requires=["django<=1.9", ],
     include_package_data=True,
     zip_safe=False,
     long_description=read('README'),
